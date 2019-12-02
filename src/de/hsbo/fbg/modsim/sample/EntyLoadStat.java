@@ -47,7 +47,7 @@ public class EntyLoadStat extends SimEntity {
 		super(model, name);
 		this.size = size;
 		if (trucks != null)
-			this.list.addAll(trucks);
+			this.addTruck(trucks);
 	}
 	
 	/**
